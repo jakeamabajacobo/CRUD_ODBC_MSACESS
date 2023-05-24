@@ -1,1 +1,5 @@
 # CRUD_ODBC_MSACESS
+
+-VB.NET
+-ODBC Connector
+-MS ACCESS
