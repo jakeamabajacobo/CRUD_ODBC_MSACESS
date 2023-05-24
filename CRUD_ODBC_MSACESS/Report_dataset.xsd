@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Report_dataset" targetNamespace="http://tempuri.org/Report_dataset.xsd" xmlns:mstns="http://tempuri.org/Report_dataset.xsd" xmlns="http://tempuri.org/Report_dataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Report_dataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="Report_dataset" msprop:Generator_DataSetName="Report_dataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TableItems" msprop:Generator_RowEvHandlerName="TableItemsRowChangeEventHandler" msprop:Generator_RowDeletedName="TableItemsRowDeleted" msprop:Generator_RowDeletingName="TableItemsRowDeleting" msprop:Generator_RowEvArgName="TableItemsRowChangeEvent" msprop:Generator_TablePropName="TableItems" msprop:Generator_RowChangedName="TableItemsRowChanged" msprop:Generator_RowChangingName="TableItemsRowChanging" msprop:Generator_TableClassName="TableItemsDataTable" msprop:Generator_RowClassName="TableItemsRow" msprop:Generator_TableVarName="tableTableItems" msprop:Generator_UserTableName="TableItems">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_UserColumnName="ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ITEMNAME" msprop:Generator_ColumnPropNameInRow="ITEMNAME" msprop:Generator_ColumnPropNameInTable="ITEMNAMEColumn" msprop:Generator_ColumnVarNameInTable="columnITEMNAME" msprop:Generator_UserColumnName="ITEMNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="ITEMDESCRIPTION" msprop:Generator_ColumnPropNameInRow="ITEMDESCRIPTION" msprop:Generator_ColumnPropNameInTable="ITEMDESCRIPTIONColumn" msprop:Generator_ColumnVarNameInTable="columnITEMDESCRIPTION" msprop:Generator_UserColumnName="ITEMDESCRIPTION" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY" msprop:Generator_ColumnPropNameInRow="QTY" msprop:Generator_ColumnPropNameInTable="QTYColumn" msprop:Generator_ColumnVarNameInTable="columnQTY" msprop:Generator_UserColumnName="QTY" type="xs:string" minOccurs="0" />
+              <xs:element name="PRICE" msprop:Generator_ColumnPropNameInRow="PRICE" msprop:Generator_ColumnPropNameInTable="PRICEColumn" msprop:Generator_ColumnVarNameInTable="columnPRICE" msprop:Generator_UserColumnName="PRICE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

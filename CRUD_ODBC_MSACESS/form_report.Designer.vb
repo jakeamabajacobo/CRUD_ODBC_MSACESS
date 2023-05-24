@@ -28,6 +28,7 @@ Partial Class form_report
         'report_viewer
         '
         Me.report_viewer.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.report_viewer.LocalReport.ReportEmbeddedResource = "CRUD_ODBC_MSACESS.ReportDesinger.rdlc"
         Me.report_viewer.Location = New System.Drawing.Point(0, 0)
         Me.report_viewer.Name = "report_viewer"
         Me.report_viewer.ServerReport.BearerToken = Nothing
@@ -42,6 +43,7 @@ Partial Class form_report
         Me.Controls.Add(Me.report_viewer)
         Me.Name = "form_report"
         Me.Text = "INVENTORY REPORT"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ResumeLayout(False)
 
     End Sub

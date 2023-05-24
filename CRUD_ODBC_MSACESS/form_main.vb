@@ -116,6 +116,12 @@ Public Class form_main
 
     Private Sub btn_loadrecord_Click(sender As Object, e As EventArgs) Handles btn_loadrecord.Click
 
-
+        form_report.Show()
+        dt.Clear()
+        With form_report.report_viewer.LocalReport
+            .DataSources.Clear()
+            .DataSources.Add(New Microsoft.Reporting.WinForms.ReportDataSource("Dataset_holder", DBProcess("SELECT * FROM tblitems", con, True)))
+        End With
+        form_report.report_viewer.RefreshReport
     End Sub
 End Class
