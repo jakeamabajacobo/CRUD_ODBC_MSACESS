@@ -113,4 +113,9 @@ Public Class form_main
             MsgBox("Item NOT DELETED!")
         End If
     End Sub
+
+    Private Sub btn_loadrecord_Click(sender As Object, e As EventArgs) Handles btn_loadrecord.Click
+
+
+    End Sub
 End Class
